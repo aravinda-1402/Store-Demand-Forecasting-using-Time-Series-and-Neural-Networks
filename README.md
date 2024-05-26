@@ -1,6 +1,6 @@
 # 🌟 Store Demand Forecasting using Time-Series and Neural Networks 🌟
 <div style="text-align: center;">
-  <img src="imgs/poster.jpg" alt="Project Banner" style="width: 100%; max-width: 800px;">
+  <img src="imgs/poster.png" alt="Project Banner" style="width: 100%; max-width: 800px;">
 </div>
 
 ## 📋 Introduction
