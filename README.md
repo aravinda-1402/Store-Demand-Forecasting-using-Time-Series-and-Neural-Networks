@@ -1,6 +1,7 @@
 # 🌟 Store Demand Forecasting using Time-Series and Neural Networks 🌟
-
-![Project Banner](path_to_your_banner_image)
+<div style="text-align: center;">
+  <img src="imgs/poster.jpg" alt="Project Banner" style="width: 100%; max-width: 800px;">
+</div>
 
 ## 📋 Introduction
 
@@ -10,7 +11,6 @@ Demand forecasting plays a crucial role in supply chain management and retail op
 
 The primary objective of this project is to develop a cutting-edge forecasting model utilizing advanced machine learning algorithms and sophisticated time-series analysis techniques. The model aims to deliver precise predictions of future sales across diverse retail outlets. By harnessing data-driven insights, this project seeks to revolutionize sales forecasting, enabling businesses to optimize inventory management, streamline resource allocation, and maximize profitability.
 
-![Project Flow](path_to_your_flow_image)
 
 ## 📊 Dataset Description
 
@@ -22,7 +22,6 @@ The primary objective of this project is to develop a cutting-edge forecasting m
   - **Sales**: Number of units sold.
 - **Data Span**: Sales data from January 1, 2013, to December 31, 2017, across 10 stores for 50 items.
 
-![Dataset Overview](path_to_your_dataset_image)
 
 ## 🛠️ Data Preprocessing
 
@@ -32,7 +31,6 @@ The primary objective of this project is to develop a cutting-edge forecasting m
 - **Correlation**: Acknowledged weak correlations with sales but opted for an inclusive approach.
 - **Train/Test Split**: Sorted data chronologically with a 75%/25% split.
 
-![Data Preprocessing](path_to_your_preprocessing_image)
 
 ## 🚀 Methodology
 
@@ -57,7 +55,6 @@ The primary objective of this project is to develop a cutting-edge forecasting m
 - **Tools and Technologies**:
   - Python, Pandas, Numpy, Scikit-learn, Keras, TensorFlow, Matplotlib
 
-![Modeling](path_to_your_modeling_image)
 
 ## 📈 Modeling and Evaluation
 
@@ -75,32 +72,29 @@ The primary objective of this project is to develop a cutting-edge forecasting m
   - LSTM
   - ARIMA
   - BiLSTM
-  - LSTM+CNN Hybrid
-  - BiLSTM+CNN Hybrid
-
-### Final Ensemble Models
-
-- **Hybrid Models**:
-  - LSTM+CNN Hybrid
-  - BiLSTM+CNN Hybrid
+  - LSTM+CNN Hybrid **(Our Model)**
+  - BiLSTM+CNN Hybrid **(Our Model)**
 
 ### Evaluation Metrics
 
 - **Mean Squared Error (MSE)**: Used to quantify the average squared magnitude of errors between predicted and actual values.
 
-![Evaluation Metrics](path_to_your_metrics_image)
 
 ## 🏆 Results
 
 ### Baseline Models Performance
 
+![Results](imgs/baseline pic.png)
+
 - CNN outperformed other baseline models in terms of MSE, followed by MLP and XGBoost.
 
 ### Time-Series Models Performance
 
+![Results](imgs/time series model res.png)
+
 - BiLSTM-CNN hybrid model demonstrated the best performance in sales prediction, followed closely by the BiLSTM and LSTM-CNN models.
 
-![Results](path_to_your_results_image)
+
 
 ## 💬 Discussion and Future Scope
 
