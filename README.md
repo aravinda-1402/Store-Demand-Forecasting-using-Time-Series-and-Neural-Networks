@@ -73,11 +73,11 @@ The primary objective of this project is to develop a cutting-edge forecasting m
   - ARIMA
   - BiLSTM
   - **LSTM+CNN Hybrid (Our Model)**
-  - **BiLSTM+CNN Hybri d(Our Model)**
+  - **BiLSTM+CNN Hybrid (Our Model)**
 
 ### Our Model
 <div style="text-align: center;">
-  <img src="imgs/model.png" alt="Project Banner" style="width: 50%; max-width: 800px;">
+  <img src="imgs/model.png" alt="Project Banner" style="width: 50%; max-width: 1000px;">
 </div>
 <br>
 The hybrid model, developed from scratch, combines Convolutional Neural Network (CNN) and Long Short-Term Memory (LSTM) components. In this architecture, the CNN segment convolves over input data, extracting spatial features, while the LSTM captures temporal dependencies. Both pathways then undergo dense layers for feature refinement before combining their outputs for accurate prediction or classification.
