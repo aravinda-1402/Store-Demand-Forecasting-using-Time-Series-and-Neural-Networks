@@ -9,7 +9,7 @@ Demand forecasting plays a crucial role in supply chain management and retail op
 
 ## 🎯 Project Goal
 
-The primary objective of this project is to develop a cutting-edge forecasting model utilizing advanced machine learning algorithms and sophisticated time-series analysis techniques. The model aims to deliver precise predictions of future sales across diverse retail outlets. By harnessing data-driven insights, this project seeks to revolutionize sales forecasting, enabling businesses to optimize inventory management, streamline resource allocation, and maximize profitability.
+The primary objective of this project is to develop a cutting-edge forecasting model utilizing advanced machine-learning algorithms and sophisticated time-series analysis techniques. The model aims to deliver precise predictions of future sales across diverse retail outlets. By harnessing data-driven insights, this project seeks to revolutionize sales forecasting, enabling businesses to optimize inventory management, streamline resource allocation, and maximize profitability.
 
 
 ## 📊 Dataset Description
@@ -72,8 +72,19 @@ The primary objective of this project is to develop a cutting-edge forecasting m
   - LSTM
   - ARIMA
   - BiLSTM
-  - LSTM+CNN Hybrid **(Our Model)**
-  - BiLSTM+CNN Hybrid **(Our Model)**
+  - **LSTM+CNN Hybrid (Our Model)**
+  - **BiLSTM+CNN Hybri d(Our Model)**
+
+### Our Model
+<div style="text-align: center;">
+  <img src="imgs/model.png" alt="Project Banner" style="width: 50%; max-width: 800px;">
+</div>
+<br>
+The hybrid model, developed from scratch, combines Convolutional Neural Network (CNN) and Long Short-Term Memory (LSTM) components. In this architecture, the CNN segment convolves over input data, extracting spatial features, while the LSTM captures temporal dependencies. Both pathways then undergo dense layers for feature refinement before combining their outputs for accurate prediction or classification.
+
+The models were hand-tuned and a batch size of 256 was suitable for training.
+
+BiLSTM-CNN which is one of our other models also has a similar architecture in which a Bidirectional Wrapper just surrounds each LSTM layer.
 
 ### Evaluation Metrics
 
@@ -83,14 +94,17 @@ The primary objective of this project is to develop a cutting-edge forecasting m
 ## 🏆 Results
 
 ### Baseline Models Performance
+<div style="text-align: center;">
+  <img src="imgs/baseline pic.png" alt="Project Banner" style="width: 80%; max-width: 800px;">
+</div>
 
-![Results](imgs/baseline pic.png)
 
 - CNN outperformed other baseline models in terms of MSE, followed by MLP and XGBoost.
 
 ### Time-Series Models Performance
-
-![Results](imgs/time series model res.png)
+<div style="text-align: center;">
+  <img src="imgs/time series model res.png" alt="Project Banner" style="width: 80%; max-width: 800px;">
+</div>
 
 - BiLSTM-CNN hybrid model demonstrated the best performance in sales prediction, followed closely by the BiLSTM and LSTM-CNN models.
 
@@ -108,12 +122,3 @@ The BiLSTM+CNN model exhibited the highest performance in sales prediction. Howe
 4. Lakshmanan B., Vivek Raja P.S.N., Kalathiappan V., "Sales Demand Forecasting Using LSTM Network," Artificial Intelligence and Evolutionary Computations in Engineering Systems, Springer, Singapore, 2020, https://doi.org/10.1007/978-981-15-0199-9_11.
 5. [Kaggle Store Item Demand Forecasting Challenge](https://www.kaggle.com/competitions/demand-forecasting-kernels-only)
 
----
-
-## 🚀 Getting Started
-
-To get started with this project, clone the repository and follow the instructions in the setup guide.
-
-```bash
-git clone https://github.com/yourusername/your-repo-name.git
-cd your-repo-name
